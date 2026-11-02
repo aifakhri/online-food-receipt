@@ -7,7 +7,8 @@ from fastapi import FastAPI
 
 from agents.assistant import build_assistant
 from agents.receipt_graph import build_receipt_graph
-from api import chat, receipts
+from api import receipts
+from api import chat
 from core import config
 from database.connection import init_db
 
