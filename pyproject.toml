@@ -1,0 +1,14 @@
+[project]
+name = "shopee-food-online-receipt"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "datasets>=5.1.0",
+    "python-dotenv>=1.2.4",
+    "transformers>=5.22.1",
+]
