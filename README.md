@@ -23,8 +23,9 @@ A notebook that explores and visualises patterns in the customer dataset using P
 uv run --group dev jupyter notebook insights_from_data.ipynb
 ```
 > The CSV file must exist at `customer_data/customers-100000.csv` before running.
-
 ---
+
+[![Check the video explanation](https://drive.google.com/file/d/1aQHOhKlsWI1M4CV-JqfhBJXGul7HD-0I/view?usp=sharing)](https://drive.google.com/file/d/1aQHOhKlsWI1M4CV-JqfhBJXGul7HD-0I/view?usp=sharing)
 
 ### 3. Load Large Files
 [load_large_files.py](load_large_files.py)
@@ -45,8 +46,9 @@ uv run --group dev python load_large_files.py lazy_streaming
 ```
 
 > The CSV file must exist at `customer_data/customers-2000000.csv` before running.
-
 ---
+
+[![Check the video explanation](https://drive.google.com/file/d/1AF7R0C-bNTcy7v6XDSJqX1eNNEM3P8Jd/view?usp=sharing)](https://drive.google.com/file/d/1AF7R0C-bNTcy7v6XDSJqX1eNNEM3P8Jd/view?usp=sharing)
 
 ### 4. VectorDB
 [vectordb/README.md](vectordb/README.md)
@@ -59,6 +61,8 @@ To check how it works use:
 uv run --group dev jupyter notebook test_vector_db.ipynb
 ```
 ---
+
+[![Check the video explanation](https://drive.google.com/file/d/11A-ueeNMyVxq7WRvl17DBiKns1_3IgaT/view?usp=sharing)](https://drive.google.com/file/d/11A-ueeNMyVxq7WRvl17DBiKns1_3IgaT/view?usp=sharing)
 
 ### 5. Chat UI
 A two-service application: a FastAPI backend that extracts receipt data with an LLM and a Streamlit frontend for uploading receipts and chatting about them.
@@ -83,6 +87,8 @@ APP_TIMEZONE=Asia/Jakarta                    # default: Asia/Jakarta
 ```
 
 > `STORAGE_ROOT` is set automatically by `docker-compose.yaml` and does not need to be in `.env`.
+
+[![Check the video explanation](https://drive.google.com/file/d/1CxV00lAd7flTWnNV1-u18xM0oaLXPcyV/view?usp=sharing)](https://drive.google.com/file/d/1CxV00lAd7flTWnNV1-u18xM0oaLXPcyV/view?usp=sharing)
 
 #### Run with Docker Compose
 
