@@ -26,6 +26,10 @@ frontend = [
 
 dev = [
     "datasets>=5.1.0",
+    "notebook>=7.6.4",
+    "pandas>=3.1.0",
+    "plotly>=7.1.0",
+    "polars>=2.1.0",
     "python-dotenv>=1.2.4",
     "transformers>=5.22.1",
 ]
