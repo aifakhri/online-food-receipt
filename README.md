@@ -63,6 +63,8 @@ uv run --group dev jupyter notebook test_vector_db.ipynb
 ### 5. Chat UI
 A two-service application: a FastAPI backend that extracts receipt data with an LLM and a Streamlit frontend for uploading receipts and chatting about them.
 
+**Dataset baseline:** The receipts used for testing this UI come from the [Voxel51 Consolidated Receipt Dataset](https://huggingface.co/datasets/Voxel51/consolidated_receipt_dataset) on Hugging Face. Note that the restaurant receipts in this dataset are **not sequential** — they are not ordered by date and do not represent purchases made across continuous days. As a result, multi-day queries such as *"What did I spend last week?"* or *"Show me all meals from the past 3 days"* will not return meaningful answers, since the receipt dates are not tied to any real or consistent timeline.
+
 - Backend details → [backend/BACKEND.md](backend/BACKEND.md)
 - Frontend details → [frontend/FRONTEND.md](frontend/FRONTEND.md)
 
